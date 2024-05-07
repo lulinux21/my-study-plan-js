@@ -41,3 +41,13 @@ function multiply(num1, num2) {
 }
 
 /* O return diz ao navegador para retornar a variável result da função para que ela esteja disponível para usar. */
+
+// Eventos
+/*
+  A interatividade real em um site requer manipuladores de eventos. Essas são estruturas de código que detectam atividades no navegador e executam o código em resposta. O exemplo mais óbvio é lidar com o evento de click, que é acionado pelo navegador quando você clica em algo com o mouse.
+*/
+
+let html = document.querySelector('html');
+html.addEventListener('click', function () {
+  alert('Pare de me cutucar');
+});
