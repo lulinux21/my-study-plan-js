@@ -24,3 +24,20 @@ if (iceCream === 'chocolate') {
 } else {
   alert('Aaaah, mas chocolate é o meu favorito...');
 }
+
+// Funções
+/* 
+  Functions são uma forma de empacotar a funcionalidade que você deseja reutilizar. É possível definir um corpo de código como uma função que é executada quando você chama o nome da função em seu código. Esta é uma boa alternativa para escrever repetidamente o mesmo código. Você já viu alguns usos de funções. Por exemplo:
+*/
+
+let selectorJS = document.querySelector('h1');
+alert('olá!');
+
+// Essas funções, document.querySelector e alert, são incorporadas ao navegador.
+
+function multiply(num1, num2) {
+  let result = num1 * num2;
+  return result;
+}
+
+/* O return diz ao navegador para retornar a variável result da função para que ela esteja disponível para usar. */
