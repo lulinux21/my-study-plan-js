@@ -34,7 +34,13 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
+.container-img {
+  max-width: 600px;
+  width: 100%;
+}
+
 img {
+  max-width: 100%;
   display: block;
   margin: 0 auto;
 }
